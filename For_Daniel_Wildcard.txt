@@ -1,0 +1,50 @@
+  481  ls second-assignment-nicocodiaz/
+  482  cd $HOME
+  483  ls
+  484  cd eeb-177/
+  485  ls
+  486  cd $HOME
+  487  ls
+  488  cd second-assignment-nicocodiaz/
+  489  ls
+  490  git add Due_4-15-19.md 
+  491  git commit -m "Due_4-15-19.md" 
+  492  git push -u origin master
+  493  cd $HOME
+  494  ls
+  495  git clone https://bitbucket.org/AllesinaLab/introscicomp2014.git
+  496  ls
+  497  cd introscicomp2014/
+  498  ls
+  499  cd UNIX/
+  500  cd Sandbox/
+  501  pwd
+  502  ls
+  503  touch TestFile
+  504  mv TestFile TestFile2
+  505  rm TestFile2
+  506  mkdir TestDirectory
+  507  touch TestDirectory/Test.txt
+  508  rmdir TestDirectory
+  509  rm TestDirectory/Test.txt
+  510  rmdir TestDirectory
+  511  echo "My first line." > test.txt
+  512  cat test.txt
+  513  echo "My second line" >> test.txt
+  514  ls / >> ListRootDir.txt
+  515  cat ListRootDir.txt
+  516  mkdir TestWild
+  517  cd TestWild
+  518  touch File1txt
+  519  touch File2.txt
+  520  touch File3.txt
+  521  touch File4.txt
+  522  touch File1.csv
+  523  touch File2.csv
+  524  touch File3.csv
+  525  touch File4.csv
+  526  touch Anotherfile.csv
+  527  touch Anotherfile.txt
+  528  ls
+  529  ls | wc -l
+  530  history | tail -n 50 > For_Daniel_Wildcard.txt
